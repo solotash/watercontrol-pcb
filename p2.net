@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/markus/projects/garten/p2/p2.sch)
-    (date "Mo 24 Apr 2017 23:48:48 CEST")
+    (date "Di 25 Apr 2017 01:05:13 CEST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "P2 - WaterControl v2")
         (company mr)
-        (rev 3.3)
+        (rev 3.4)
         (date 2017-04-24)
         (source p2.sch)
         (comment (number 1) (value ""))
@@ -16,7 +16,7 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref U2)
-      (value ESP-12E)
+      (value ESP-12F)
       (footprint esp8266:ESP-12E)
       (libsource (lib ESP8266) (part ESP-12E))
       (sheetpath (names /) (tstamps /))
@@ -165,7 +165,7 @@
       (tstamp 58FD3732))
     (comp (ref Q2)
       (value IRL540N)
-      (footprint TO_SOT_Packages_THT:TO-220_Horizontal)
+      (footprint TO_SOT_Packages_THT:TO-220_Horizontal_Reversed)
       (libsource (lib myschematics) (part IRL540N))
       (sheetpath (names /) (tstamps /))
       (tstamp 58FD3779)))
